@@ -7,8 +7,8 @@ public class String_Program {
 		//String literal methods.....
 		
 		//LENGTH METHOD
-		//String a1="hello world";
-		//System.out.println(a1.length());
+		/*String a1="hello world";
+	    System.out.println(a1.length());*/
 		
 		//CONTAINS METHOD
 		/*String c1="java is very simple";
@@ -40,12 +40,12 @@ public class String_Program {
 		System.out.println(s2.equalsIgnoreCase(s3));
 		System.out.println(s3.equalsIgnoreCase(s4));*/
 		
-		//TOLOWER CASE
-		/*String s1="Java is a programming language";
-		System.out.println(s1.toLowerCase());*/
+		//TOLOWER CASE & toUpperCase()
+		/*String s1="JAVA IS A PROGRAMMING LANGUAGE";
+		System.out.println(s1.toLowerCase());
 		
-		/*String s1="Java is a programming language";
-		System.out.println(s1.toUpperCase());*/
+		String s2="Java is a programming language";
+		System.out.println(s2.toUpperCase());*/
 		
 		//replace 
 		/*String s1="Java is simple";
@@ -60,11 +60,13 @@ public class String_Program {
 		/*String s1="java is powerfull";
 		System.out.println(s1.startsWith("jav"));
 		System.out.println(s1.startsWith("JA"));
-		System.out.println(s1.startsWith("is"));*/
+		System.out.println(s1.startsWith("is"));
 		
-		String s1="java is powerfull";
-		System.out.println(s1.endsWith("full"));
-		System.out.println(s1.endsWith("q"));
+		String s2="java is powerfull";
+		System.out.println(s2.endsWith("full"));
+		System.out.println(s2.endsWith("q"));*/
+		
+		//string buffer
 		
 	}
 
